@@ -1,0 +1,43 @@
+.form {
+    background-color: rgb(16, 216, 252);
+    padding: 8px;
+    text-align:center;
+    /* margin-left: 700px; */
+    margin:auto;
+    display: inline-block;
+    border: solid;
+    position: relative;
+    left: 800px;
+    top: 100px;
+  
+}
+#passwor{
+    display: inline;
+
+}
+
+#Eml{
+    display: inline;
+}
+    
+#ptag{
+    color: black;
+    font-size: large;
+}
+
+.familly{
+    position: relative;
+  /* width: 400px;
+  height: 200px;
+  border: 3px solid #73AD21; */
+  left: 200px;
+   top: 200px;
+   font-size:400%;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text{
+    position: relative;
+    top: 150px;
+    left: 200px;
+   
+}
