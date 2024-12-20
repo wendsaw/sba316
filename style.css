@@ -38,6 +38,36 @@
 .text{
     position: relative;
     top: 150px;
-    left: 200px;
+    left: 225px;
    
+}
+
+.wordform{
+    background-color:crimson;
+    padding: 100px;
+    text-align:center;
+    /* margin-left: 700px; */
+    margin:auto;
+    display: inline-block;
+    border: solid;
+    position:absolute;
+    left: 230px;
+    top: 400px;
+
+}
+#button{
+    position: relative;
+    top: 100px;
+}
+#wordbox{
+    position: relative;
+    top: 90px;
+}
+
+#inst{
+    position:absolute;
+    top: 3px;
+    text-align:left;
+    font-size: medium;
+
 }
