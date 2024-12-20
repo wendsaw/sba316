@@ -58,6 +58,17 @@
 #button{
     position: relative;
     top: 100px;
+    /* background: #0b7fba;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    padding: 1em 2em;
+    cursor: pointer;
+    margin: 0 auto 60px;
+    display: block;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: bold; */
 }
 #wordbox{
     position: relative;
