@@ -1,4 +1,5 @@
 .form {
+    position: relative;
     background-color: rgb(16, 216, 252);
     padding: 8px;
     text-align:center;
@@ -9,6 +10,7 @@
     position: relative;
     left: 800px;
     top: 50px;
+    
   
 }
 #passwor{
