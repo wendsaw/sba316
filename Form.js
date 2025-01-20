@@ -5,8 +5,9 @@ const guessword=document.querySelector('#wordbox')
 const btm=document.querySelector('#btm')
 const CorrectWord=document.querySelector('#gword')
 const smt=document.querySelector('#smt')
-const number=document.querySelector('#Ntry')
-console.log(number.value);
+const res=document.querySelector('.list-group')
+
+
 
 console.log(CorrectWord);
 
@@ -19,16 +20,30 @@ console.log(CorrectWord);
     let word = Randomword();
     wordTrunk= hideword(word)
     e.target.value=wordTrunk;
-    smt.addEventListener('click',e =>{
-        e.preventDefault()
-        console.log(CorrectWord.value);
-        result=cWord(word,CorrectWord.value)
-        if (result=='won'){
-            console.log(`you are a winner`);
-        }if (result=='lost'){
-            console.log(`you have ${number.value} trial left`);
-        }
-    })
+    
+        smt.addEventListener('click',e =>{
+            
+   
+            e.preventDefault()
+            console.log(CorrectWord.value);
+            result=cWord(word,CorrectWord.value)
+            if (result=='won'){
+                res.innerHTML=`<li class="list-group-item list-group-item-primary">CORRECT WORD:${word}</li>
+        <li class="list-group-item list-group-item-secondary">GUESS WORD:${CorrectWord.value}</li>
+        <li class="list-group-item list-group-item-secondary">RESULT:${result}</li>`
+                
+                console.log(`you are a winner`);
+                
+            }if (result=='lost'){
+                res.innerHTML=`<li class="list-group-item list-group-item-primary">CORRECT WORD:${word}</li>
+        <li class="list-group-item list-group-item-secondary">GUESS WORD:${CorrectWord.value}</li>
+        <li class="list-group-item list-group-item-secondary">RESULT:${result}</li>`
+                console.log(`you have lost play again`);
+            
+            }
+    
+   })
+    
     
  })
 

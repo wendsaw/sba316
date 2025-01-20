@@ -6,15 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script defer src="/Form.js"></script>
 </head>
 
 <body>
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-primary">CORRECT WORD:</li>
+        <li class="list-group-item list-group-item-secondary">GUESS WORD:</li>
+        <li class="list-group-item list-group-item-secondary">RESULT:</li>
+        
+      </ul>
     <!-- <img src="/picture/galaxy.webp" alt="galaxy" class="gl"> -->
     <div class="familly">
         <p>Familly Games</p>
     </div>
-    <p class="text">Connect to thousands of games by login to your account</p>
+    
     <form class="form">
         <p id="ptag">PLEASE LOGIN TO YOUR ACCOUNT</p>
         <label for="email">Email:</label><br>
@@ -30,8 +37,7 @@
 
     <FORM class="wordform">
         <P id="inst">Please generate a word to guess</P>
-        <label for="Ntry">Number of trial</label><br><br>
-        <input type="number" id="Ntry" name="Ntry" ; required, placeholder="Number of trial" style="text-align: center;"> <br><br>
+    
         <label for="gword">Guess correct word</label><br><br>
         <input type=TEXT id="gword" name="gword", placeholder=" Type correct word"style="text-align: center;"> <br><br>
         <button type="submit" id="smt">Submit word</button>
