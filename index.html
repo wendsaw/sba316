@@ -18,7 +18,7 @@
     <form class="form">
         <p id="ptag">PLEASE LOGIN TO YOUR ACCOUNT</p>
         <label for="email">Email:</label><br>
-        <input type="email" id="Email" name="email" ; required, placeholder=" Enter Email" , autofocus> <br><br>
+        <input type="email" id="Email" name="email" ; required, placeholder=" Enter Email" console.log(CorrectWord.placeholder);> <br><br>
         <label for="password">Password:</label><br>
         <input type="password" id="password" name="password" ; required, placeholder=" Enter Password" ,autofocus>
         <br><br>
@@ -31,13 +31,14 @@
     <FORM class="wordform">
         <P id="inst">Please generate a word to guess</P>
         <label for="Ntry">Number of trial</label><br><br>
-        <input type="number" id="Ntry" name="Ntry" ; required, placeholder="Number of trial" style="text-align: center;", autofocus> <br><br>
+        <input type="number" id="Ntry" name="Ntry" ; required, placeholder="Number of trial" style="text-align: center;"> <br><br>
         <label for="gword">Guess correct word</label><br><br>
-        <input type=TEXT id="gword" name="gword" ; required, placeholder=" Type correct word"style="text-align: center;" , autofocus> <br><br>
+        <input type=TEXT id="gword" name="gword", placeholder=" Type correct word"style="text-align: center;"> <br><br>
+        <button type="submit" id="smt">Submit word</button>
         
         <!-- <INPUT TYPE=TEXT NAME="WordBox" id="wordbox" VALUE='word'><BR> -->
-        <label for="gword" id="btm">click below to genrate word</label><br><br>
-        <input type=TEXT id="wordbox" name="gword" ; required, placeholder=" CLICK HERE " style="text-align: center;" , autofocus> <br><br>
+        <label for="gword" id="btm" style="right: 50px;">click below to genrate word</label><br><br>
+        <input type=TEXT id="wordbox" name="gword" ; required, placeholder=" CLICK HERE " style="text-align: center;"> <br><br>
         <!-- <button id="btm" >GENERATE</button>  -->
         
         <!-- <INPUT TYPE=BUTTON VALUE="GENERATE" id="button" > -->

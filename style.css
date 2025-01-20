@@ -80,6 +80,12 @@
     position: relative;
     top: 90px;
 }
+#smt{
+    position: relative;
+    top: 10px;
+    left: 90px;
+
+}
 
 #inst{
     position:absolute;
