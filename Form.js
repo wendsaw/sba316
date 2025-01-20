@@ -2,12 +2,13 @@
 
 //this function generate random word for the array chars
 const guessword=document.querySelector('#wordbox')
+const btm=document.querySelector('#btm')
 console.log(guessword);
-
+console.log(btm);
 
  guessword.addEventListener('click',e=>{
     e.target
-    console.log(e.target.value);
+    console.log('hello world');
     word = Randomword();
     console.log(`the word is ${word}`);
     const c=word.split("")
@@ -17,8 +18,7 @@ console.log(guessword);
     word=c.join('').toUpperCase()
     e.target.value=word;
     
-    // console.log(c);
-    // console.log(word
+
  })
 
 function Randomword() {
