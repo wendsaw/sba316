@@ -7,7 +7,6 @@ let word = document.getElementById('wordbox');
 
 
 
-
 // console.log(nAccount);
 
 //this fucntion change the color of the bottom to red when user click
@@ -56,6 +55,6 @@ function hideword(e) {
 
 gener.addEventListener('click', hideword);
 nAccount.addEventListener('click', cChange);
-login.addEventListener('click', cChange);
+login.;
 
 
